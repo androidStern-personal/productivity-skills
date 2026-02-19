@@ -4,8 +4,8 @@ Personal productivity system — task management, workplace memory, and a visual
 
 ## Compatible With
 
-- **Claude Code** — drop skills into `~/.claude/skills/`
-- **OpenClaw** — drop skills into `~/.openclaw/skills/`
+- **Claude Code** — install as a plugin via marketplace
+- **OpenClaw** — load via `extraDirs`
 
 ## Skills
 
@@ -21,14 +21,20 @@ Personal productivity system — task management, workplace memory, and a visual
 
 ## Installation
 
-### Claude Code (plugin mode)
+### Claude Code (plugin marketplace)
+
+Add the marketplace, then install the plugin:
+
+```
+/plugin marketplace add androidStern-personal/productivity-skills
+/plugin install productivity@productivity-skills
+```
+
+Skills are namespaced: `/productivity:productivity-start`, `/productivity:productivity-update`, etc.
+
+For local development:
 
 ```bash
-# From GitHub:
-claude plugin marketplace add <your-github-user>/productivity-skills
-claude plugin install productivity@productivity-skills
-
-# Or for local development:
 claude --plugin-dir ~/src/skills/productivity
 ```
 
