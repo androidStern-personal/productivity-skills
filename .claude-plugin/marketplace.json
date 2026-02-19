@@ -9,10 +9,7 @@
   "plugins": [
     {
       "name": "productivity",
-      "source": {
-        "source": "github",
-        "repo": "androidStern-personal/productivity-skills"
-      },
+      "source": "./productivity",
       "description": "Task management, workplace memory, and a visual dashboard. Tracks tasks in TASKS.md, builds two-tier memory (MEMORY.md + memory/), and syncs with your calendar, email, and chat.",
       "version": "0.1.0"
     }

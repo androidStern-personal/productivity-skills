@@ -35,7 +35,7 @@ Skills are namespaced: `/productivity:productivity-start`, `/productivity:produc
 For local development:
 
 ```bash
-claude --plugin-dir ~/src/skills/productivity
+claude --plugin-dir ~/src/skills/productivity/productivity
 ```
 
 ### OpenClaw (extraDirs mode)
