@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "productivity",
-      "source": "./productivity",
-      "description": "Task management, workplace memory, and a visual dashboard. Tracks tasks in TASKS.md, builds two-tier memory (MEMORY.md + memory/), and syncs with your calendar, email, and chat.",
+      "source": "./plugins/productivity",
+      "description": "Task management, workplace memory, and a visual dashboard.",
       "version": "0.1.0"
     }
   ]

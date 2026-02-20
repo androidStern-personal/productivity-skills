@@ -1,9 +1,0 @@
-{
-  "name": "productivity",
-  "version": "0.1.0",
-  "description": "Task management, workplace memory, and a visual dashboard. Tracks tasks in TASKS.md, builds two-tier memory (MEMORY.md + memory/), and syncs with your calendar, email, and chat.",
-  "author": {
-    "name": "winterfell"
-  },
-  "skills": "./skills"
-}
